@@ -30,7 +30,24 @@ el flujo de trabajo desde web scraping hasta análisis exploratorio.
 ## 📂 Project Structure / Estructura del Proyecto
 - **cleaned_covid_data.csv** → Preprocessed dataset / Dataset preprocesado  
 - **project_covid19.ipynb** → Jupyter Notebook with full workflow / Notebook con flujo completo  
-- **README.md** → Documentation / Documentación  
+- **README.md** → Documentation / Documentación
+
+## 📊 Evidence / Evidencia
+🔢 **Key Results / Resultados Clave**
+  
+- Worldwide positive ratio / Ratio positivo mundial: 0.23
+
+- Countries starting with "United" / Países que comienzan con "United":
+
+- United States
+  
+- United Kingdom
+  
+- United Arab Emirates
+  
+- Subset (rows 5–10): muestra confirmados por país en ese rango.
+  
+- Threshold filter (<1%) / Filtro por umbral (<1%): lista de países con riesgo relativamente bajo.
 
 ---
 
@@ -43,19 +60,3 @@ install.packages("httr")
 install.packages("rvest")
 
 ---
-
-## 📊 Evidence / Evidencia
-🔢 Key Results / Resultados Clave
-Worldwide positive ratio / Ratio positivo mundial: 0.23
-
-Countries starting with "United" / Países que comienzan con "United":
-
-United States
-
-United Kingdom
-
-United Arab Emirates
-
-Subset (rows 5–10): muestra confirmados por país en ese rango.
-
-Threshold filter (<1%) / Filtro por umbral (<1%): lista de países con riesgo relativamente bajo.
